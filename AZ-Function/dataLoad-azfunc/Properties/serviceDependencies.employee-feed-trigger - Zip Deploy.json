@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "appInsights1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/microsoft.insights/components/employee-feed-trigger",
+      "type": "appInsights.azure",
+      "connectionId": "APPLICATIONINSIGHTS_CONNECTION_STRING"
+    },
+    "storage2": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/employee-feed-trigger/providers/Microsoft.ServiceLinker/linkers/blobConn_BCFAAB48DC, /subscriptions/f53c8349-9058-41ad-9852-8874ce1acf69/resourceGroups/final-project-590/providers/Microsoft.Web/sites/employee-feed-trigger/providers/Microsoft.ServiceLinker/linkers/blobConn_55F8E3C568",
+      "secretStore": null,
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/grouproj590",
+      "type": "storage.azure",
+      "connectionId": "blobConn"
+    },
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/employee-feed-trigger/providers/Microsoft.ServiceLinker/linkers/sqlConn_BD3531EC44",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/employee-feed/databases/conscea",
+      "type": "mssql.azure",
+      "connectionId": "sqlConn",
+      "dynamicId": null
+    }
+  }
+}

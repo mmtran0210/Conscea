@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets"
+    },
+    "storage1": {
+      "type": "storage",
+      "connectionId": "blobConn",
+      "dynamicId": null
+    },
+    "appInsights1": {
+      "type": "appInsights",
+      "connectionId": "APPLICATIONINSIGHTS_CONNECTION_STRING"
+    },
+    "storage2": {
+      "type": "storage",
+      "connectionId": "blobConn"
+    },
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "sqlConn"
+    }
+  }
+}

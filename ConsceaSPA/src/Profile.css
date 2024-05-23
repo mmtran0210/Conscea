@@ -1,0 +1,75 @@
+#Profile {
+  /* background-color: #808080; */
+
+  height: 60vh;
+  width: 120vh;
+  min-width: auto;
+  align-self: flex-start;
+  border: 3px solid #dddddd;;
+}
+
+.hasUser {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  width: max-content;
+  margin-left: 10%;
+  justify-content: space-between;
+  /* color: #6F7378; */
+}
+
+p.UserName {
+  font-size: 50px;
+}
+
+.UserInfo {
+  font-size: 28px;
+  text-align: left;
+  place-content: center;
+  flex: 100%;
+  width: fit-content;
+  padding: 15px;
+}
+
+div.showPicture {
+  align-items: center;
+  justify-content: center;
+
+  /* background-color: red; */
+}
+
+.photo {
+  top: 0;
+  left: 0;
+  width: 250px;
+  max-height: 250px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15%;
+}
+.profileButton {
+  width: 100%;
+  margin-top: 5%;
+  background-color: #646cff;
+  opacity: 3;
+
+}
+
+button.profileButton:hover{
+  opacity: .5;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+p.userContentPhone {
+  width: fit-content;
+}
+
+input:hover {
+  opacity: 0.4;
+}

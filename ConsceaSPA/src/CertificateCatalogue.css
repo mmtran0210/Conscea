@@ -1,0 +1,36 @@
+#Catalog {
+  border: azure 1px solid;
+  /* margin-top: 15%; */
+  margin-top: 5%;
+  padding: 10px;
+}
+
+#page {
+  margin-top: 10%;
+}
+
+table.CatalogTable {
+}
+
+tr,
+th,
+td {
+  border-bottom: 1px solid white;
+  width: max-content;
+}
+
+td.tableEnd {
+  border-right: 1px dashed white;
+  border-left: 1px dashed white;
+
+  width: 3cm;
+}
+
+td.Catagory {
+  border-left: 1px dashed white;
+  width: 3cm;
+}
+
+td.name {
+  border-left: 1px dashed white;
+}

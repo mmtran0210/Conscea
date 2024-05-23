@@ -1,0 +1,6 @@
+@ConsceaAPI_HostAddress = http://localhost:5183
+
+GET {{ConsceaAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
